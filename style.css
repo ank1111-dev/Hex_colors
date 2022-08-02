@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Charis+SIL:ital,wght@1,400;1,700&family=Comfortaa:wght@500&family=Cormorant:ital,wght@0,500;1,500&family=Roboto:wght@100&family=Work+Sans&display=swap');
+
+body {
+
+  font-family: 'Comfortaa', cursive !important;
+   
+}
+
+.container {
+
+  height: 100vh;
+}
+
+.hex-colors h1{
+
+  animation: colorchange 5s infinite alternate;
+
+}
+
+@keyframes colorchange {
+  0%{
+    color: indigo;
+  }
+  20%{
+    color: blue;
+  }
+  40%{
+    color:  green;
+  }
+  60%{
+    color:  yellow;
+  }
+  80%{
+    color:  orange;
+  }
+  100%{
+    color:  red;
+  }
+  
+}
+
+@media (max-width: 575.98px) {
+
+  .hex.colors h1{
+    font-size: 1.5rem;
+  }
+  .hex.colors h2{
+    font-size: 1.5rem;
+  }
+}
